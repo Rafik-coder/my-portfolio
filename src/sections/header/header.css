@@ -1,0 +1,13 @@
+.header{
+    height: calc(100vh - 55px);
+    /* background: red; */
+    /* overflow-y: scroll; */
+}
+/* 
+.right-header{
+    height: 100%;
+}
+
+.left-header{
+    height: 100%;
+} */

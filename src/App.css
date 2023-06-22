@@ -1,0 +1,63 @@
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: var(--color-bg);
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.App{
+    height: 100%;
+    width: 100%;
+}
+
+.Home{
+    height: calc(100vh);
+    overflow-y: scroll;
+}
+
+
+.underline{
+    height: 5px;
+    width: 150px;
+    background: red;
+}
+
+/* Random  */
+.trans{
+    transition: all 500ms ease;
+}
+
+
+@media screen and (max-width: 650px) {
+    
+    ::-webkit-scrollbar{
+        width: 0px;
+    }
+
+    .bars{
+        display: flex;
+    }
+
+    .social{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 865px) {
+    .short-navs{
+        display: none;
+    }
+
+}

@@ -1,0 +1,17 @@
+.card-hover{
+    background: rgba(0, 0, 0, .6);
+    color: white;
+    font-weight: bold;
+}
+
+/* .card-hover-container:hover{
+    display: none;
+} */
+
+.card-hover > * {
+    margin-top: .5em;
+}
+
+.btn{
+    width: 200px;
+}

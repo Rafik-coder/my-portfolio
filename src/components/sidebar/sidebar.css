@@ -1,0 +1,45 @@
+
+/* ############ SIDE BAR ################ */
+.close{
+    display: none;
+}
+
+.open{
+    display: flex;
+}
+
+.drawer{
+    height: 100vh;
+    background: rgba(0, 0, 0, .2);
+}
+
+.bars{
+    display: none;
+}
+
+.drawer-container{
+    transition: all 700ms ease;
+    background: var(--color-bg);
+}
+
+.ul-navs > li{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+    transition: all 300ms ease;
+}
+
+.ul-navs > li:hover{
+    background: #b4aeae;
+}
+
+/* ############################################## */
+
+
+
+@media screen and (max-width: 650px) {
+
+    .bars{
+        display: flex;
+    }
+}
